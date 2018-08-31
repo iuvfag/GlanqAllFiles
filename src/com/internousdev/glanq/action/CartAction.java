@@ -63,7 +63,7 @@ public class CartAction extends ActionSupport implements SessionAware{
 		session.put("totalPrice", totalPrice);
 		result = SUCCESS;
 
-
+		//ヘッダーの検索窓用にカテゴリIDをチェック
 		if(!(session.containsKey("mCategoryList"))){
 			MCategoryDAO mCategoryDao =new MCategoryDAO();
 			mcDTOList = mCategoryDao.getMCategoryList();

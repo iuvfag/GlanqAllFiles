@@ -165,7 +165,6 @@ html, body {
 	opacity: 0;
 }
 
-/* ------------------------------------------------ checked */
 .check:checked ~ .drawer-menu {
 	-webkit-transition-delay: .3s;
 	transition-delay: .3s;
@@ -387,7 +386,7 @@ color:#000000;
     -ms-transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
-	color:#96e6a1;
+	color:#008000;
 	font-size:50px;
 	font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
 }
@@ -456,15 +455,15 @@ color:#000000;
 @keyframes show {
     0% {opacity:0}
     5% {opacity:1}
-    10% {opacity:1}
-    20% {opacity:0}
+    15% {opacity:1}
+    23% {opacity:0}
  }
 
 @-webkit-keyframes show {
     0% {opacity:0}
     5% {opacity:1}
-    10% {opacity:1}
-    20% {opacity:0}
+    15% {opacity:1}
+    23% {opacity:0}
 }
 
  /* フッター*/
